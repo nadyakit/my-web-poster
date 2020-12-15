@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <title>frog</title>
     <link rel="stylesheet" href="/stylesheet/style.css">
     <style media="screen">
       html {
         overflow-y: hidden;
-      }
-
-      body {
-        height: 100%;
-        min-height: 100%;
         overflow-x: scroll;
+        position: relative;
+      }
+      body {
+        weight: 100vh;
+        height: 100vh;
+        min-height: 100vh;
+        overflow-x: scroll;
+        position: relative;
+
       }
       body::before {
         content: "";
@@ -21,13 +25,16 @@
         left: 0;
         top: 0;
         right: 0;
-        background: url("images/maket1920.jpg");
+        background: url(images/maket1920.jpg);;
         height: 100%;
         display: block;
         opacity: .2;
+      }
     </style>
   </head>
   <body>
+  <section>
 
+  </section>
   </body>
 </html>
