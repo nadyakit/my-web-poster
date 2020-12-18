@@ -1,5 +1,9 @@
-.frog1 {
-  height: 200px;
-  width: 200px;
-  background: blue;
+@font-face {
+font-family: Curbe Regular;
+scr: url
+}
+
+.all {
+  display: inline-flex;
+  overflow-y: scroll;
 }
