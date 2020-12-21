@@ -4,8 +4,7 @@ scr: url
 }
 
 body {
-  margin: 0px auto !important;
-  width: 200%;
+  background-image: url(images/maket1920.jpeg)
 }
 .all {
   display: inline-flex;
