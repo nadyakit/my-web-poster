@@ -3,7 +3,17 @@ font-family: Curbe Regular;
 scr: url
 }
 
+body {
+  margin: 0px auto !important;
+  width: 200%;
+}
 .all {
   display: inline-flex;
   overflow-y: scroll;
+}
+.d1 {
+width: 100px;
+height: 100px;
+background: blue;
+border-radius: 50%;
 }
