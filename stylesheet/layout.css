@@ -5,10 +5,12 @@ src: url("fonts/curbe.woff") format("woff");
 .jopa {
   font-family: curbe;
   font-size: 40px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+
 }
 html {
   overflow-y: hidden;
-}
-body {
   overflow-x: scroll;
+
 }
