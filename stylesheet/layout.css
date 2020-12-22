@@ -1,6 +1,6 @@
 @font-face {
 font-family: "curbe";
-src: url("fonts/curbe.woff") format("woff"),;
+src: url("fonts/curbe.woff") format("woff");
 }
 .jopa {
   font-family: curbe;
