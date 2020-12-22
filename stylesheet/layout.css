@@ -2,12 +2,15 @@
 font-family: "curbe";
 src: url("fonts/curbe.woff") format("woff");
 }
-.jopa {
+.text {
+  position: absolute;
   font-family: curbe;
   font-size: 40px;
-  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
-
+  width: 400px;
+  left: calc(50% - 200px);
+  /* bottom:  */
 }
 html {
   overflow-y: hidden;
