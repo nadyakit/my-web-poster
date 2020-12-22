@@ -1,8 +1,14 @@
 @font-face {
-font-family: Curbe Regular;
-scr: url
+font-family: "curbe";
+src: url("fonts/curbe.woff") format("woff"),;
+}
+.jopa {
+  font-family: curbe;
+  font-size: 40px;
 }
 html {
   overflow-y: hidden;
+}
+body {
   overflow-x: scroll;
 }
