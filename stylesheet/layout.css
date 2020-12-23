@@ -224,11 +224,17 @@ body{
 	top: 60px;
 	left: 2350px;
 }
+.screen_2 .cloth .sumka{
+	height: 40%; width: auto;
+	position: absolute;
+	bottom: -65px;
+	left: 2460px;
+}
  .screen_2 .cloth .cloth_6{
- 	height: 80%; width: auto;
+ 	height: 70%; width: auto;
 	position: absolute;
 	top: 60px;
-	left: 2700px;
+	left: 2600px;
 }
  .screen_2 .cloth .cloth_7{
 	position: absolute;
@@ -265,4 +271,30 @@ body{
 	position: absolute;
 	top: 30px;
 	left: 4400px;
+}
+/*SCREEN 3*/
+.screen_3{
+	display: inline-flex;
+	width: 1920px;
+	height: 100vh;
+}
+.screen_3 .about{
+	margin-top: 200px;
+	margin-left: 200px; 
+}
+.screen_3 .about h1{
+	font-weight: bold;
+	line-height: 90px;
+	font-size: 70px;
+ 	font-family: 'Curbe';
+}
+.screen_3 .about h2{
+	margin-top: 240px;
+	line-height: 35px;
+	font-size: 24px;
+ 	font-family: 'Helvetica';
+}
+.screen_3 img{
+	height: 75%; width: auto;
+	margin: 170px auto;
 }
