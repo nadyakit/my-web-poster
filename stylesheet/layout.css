@@ -63,28 +63,55 @@ body{
 	position: absolute;
 }
 .jabki_bg_1{
+	filter: blur(15px);
 	left: -5%;
 }
 .jabki_bg_2{
+	filter: blur(15px);
 	width: 60%; height: 60%;
 	left: 17%;
 	top: -5%;
 }
 .jabki_bg_3{
+	filter: blur(15px);
 	width: 55%; height: 55%;
 	top: 2%;
 	right: -5%;
 }
 .jabki_bg_4{
+	filter: blur(15px);
 	width: 75%; height: 75%;
 	bottom: -20%;
 	left: 10%;
 }
 .jabki_bg_5{
+	filter: blur(15px);
 	width: 45%; height: 45%;
 	bottom: 5%;
 	right: -5%;
 }
+/*HOVER JAB*/
+.jabki_bg_1:hover{
+	transition-duration: .2s;
+	filter: blur(0px);
+}
+.jabki_bg_2:hover{
+	transition-duration: .2s;
+	filter: blur(0px);
+}
+.jabki_bg_3:hover{
+	transition-duration: .2s;
+	filter: blur(0px);
+}
+.jabki_bg_4:hover{
+	transition-duration: .2s;
+	filter: blur(0px);
+}
+.jabki_bg_5:hover{
+	transition-duration: .2s;
+	filter: blur(0px);
+}
+
 .logo{
 	width: 5%; height: 5%;
 	bottom: 150px;
@@ -204,7 +231,7 @@ body{
  	position: absolute;
  	width: 700px;
  	height: auto;
- 	top: 94px;
+ 	top: 92px;
 	left: 1750px;
  }
  .screen_2 .cloth h2{
