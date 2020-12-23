@@ -94,7 +94,7 @@ body{
 /*Screen 2*/
 .screen_2{
 	display: inline-flex;
-	width: 5760px;
+	width: 4800px;
 	height: 100vh;
 	position: relative;
 
@@ -112,7 +112,7 @@ body{
 	bottom: -50px;
 }
 .screen_2 .palka_X{
-
+	width: 4700px;
 	position: absolute;
 	top: 50px;
 	left: 30px;
@@ -138,10 +138,10 @@ body{
 	left: 450px;
 }
 .screen_2 .cloth .veshalka{
-	width: 300px; height: auto;
+	width: auto; height: 25%;
 	position: absolute;
-	top: 75px;
-	left: 710px;
+	top: 80px;
+	left: 780px;
 }
 .screen_2 .cloth p{
 	-webkit-text-stroke-width: 1px;
@@ -151,22 +151,22 @@ body{
 	position: absolute;
 	width: 100px;
 	top: 150px;
-	left: 810px;
+	left: 760px;
 }
 .screen_2 .cloth p span{
 	position: absolute;
-	left: 350px;
+	left: 300px;
 }
 .screen_2 .cloth .jaba1{
-	width: 200px; height: auto;
+	width: auto; height: 25%;
 	position: absolute;
-	top: 170px;
-	left: 710px;
+	top: 130px;
+	left: 780px;
 }
 .screen_2 .cloth .jaba2{
-	width: 300px; height: auto;
+	width: auto; height: 40%;
 	position: absolute;
-	top: 150px;
+	top: 100px;
 	left: 1000px;
 	z-index: 2;
 }
@@ -178,7 +178,7 @@ body{
 }
 .screen_2 .cloth .cloth_3{
 	position: absolute;
-	top: 60px;
+	top: 30px;
 	left: 1000px;
 }
 .screen_2 .cloth .cloth_4{
@@ -225,7 +225,7 @@ body{
 	left: 2350px;
 }
  .screen_2 .cloth .cloth_6{
- 	height: 500px; width: auto;
+ 	height: 80%; width: auto;
 	position: absolute;
 	top: 60px;
 	left: 2700px;
@@ -233,36 +233,36 @@ body{
  .screen_2 .cloth .cloth_7{
 	position: absolute;
 	top: 60px;
-	left: 3000px;
+	left: 2900px;
 }
  .screen_2 .cloth .cloth_8{
 	position: absolute;
 	top: 60px;
-	left: 3250px;
+	left: 3150px;
 }
  .screen_2 .cloth .cloth_9{
 	position: absolute;
 	top: 60px;
-	left: 3700px;
+	left: 3600px;
 }
  .screen_2 .cloth .cloth_10{
- 	height: 800px; width: auto;
+ 	height: 80%; width: auto;
 	position: absolute;
-	top: 40px;
-	left: 4000px;
+	top: 45px;
+	left: 3900px;
 }
  .screen_2 .cloth .cloth_11{
 	position: absolute;
 	top: 55px;
-	left: 4450px;
+	left: 3350px;
 }
  .screen_2 .cloth .cloth_12{
 	position: absolute;
 	top: 55px;
-	left: 4900px;
+	left: 4300px;
 }
  .screen_2 .cloth .cloth_13{
 	position: absolute;
 	top: 30px;
-	left: 5400px;
+	left: 4400px;
 }
