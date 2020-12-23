@@ -219,3 +219,50 @@ body{
  	top: 350px;
 	left: 1900px;
  }
+ .screen_2 .cloth .cloth_5{
+	position: absolute;
+	top: 60px;
+	left: 2350px;
+}
+ .screen_2 .cloth .cloth_6{
+ 	height: 500px; width: auto;
+	position: absolute;
+	top: 60px;
+	left: 2700px;
+}
+ .screen_2 .cloth .cloth_7{
+	position: absolute;
+	top: 60px;
+	left: 3000px;
+}
+ .screen_2 .cloth .cloth_8{
+	position: absolute;
+	top: 60px;
+	left: 3250px;
+}
+ .screen_2 .cloth .cloth_9{
+	position: absolute;
+	top: 60px;
+	left: 3700px;
+}
+ .screen_2 .cloth .cloth_10{
+ 	height: 800px; width: auto;
+	position: absolute;
+	top: 40px;
+	left: 4000px;
+}
+ .screen_2 .cloth .cloth_11{
+	position: absolute;
+	top: 55px;
+	left: 4450px;
+}
+ .screen_2 .cloth .cloth_12{
+	position: absolute;
+	top: 55px;
+	left: 4900px;
+}
+ .screen_2 .cloth .cloth_13{
+	position: absolute;
+	top: 30px;
+	left: 5400px;
+}
