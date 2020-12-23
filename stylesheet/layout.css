@@ -186,5 +186,36 @@ body{
 	top: 60px;
 	left: 1300px;
 	z-index: -1;
-
 }
+
+.screen_2 .cloth .yashik{
+	width: auto; height: 500px;
+	position: absolute;
+ 	bottom: 50px;
+	left: 1700px;
+}
+.screen_2 .cloth .yashik1{
+	width: auto; height: 180px;
+	position: absolute;
+ 	bottom: 52px;
+	left: 1953px;
+}
+ .screen_2 .cloth .girlyanda{
+ 	position: absolute;
+ 	width: 700px;
+ 	height: auto;
+ 	top: 94px;
+	left: 1750px;
+ }
+ .screen_2 .cloth h2{
+ 	font-size: 36px;
+ 	font-family: 'Curbe';
+ 	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: black;
+
+ 	position: absolute;
+ 	width: 700px;
+ 	height: auto;
+ 	top: 350px;
+	left: 1900px;
+ }
