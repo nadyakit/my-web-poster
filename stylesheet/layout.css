@@ -6,6 +6,7 @@
 	font-family: 'Helvetica';
 	src: url('../fonts/helvetica.woff');
 }
+
 body{
 	height: 100vh;
 	min-height: 100vh;
@@ -158,16 +159,28 @@ body{
 	top: 60px;
 	left: 150px;
 }
-.screen_2 .cloth .border_1{
+.screen_2 .cloth .cloth_1_price{
+	opacity: 0;
 	position: absolute;
-	top: 60px;
-	left: 150px;
+	height: 10%; width: auto;
+	z-index: 9999;
+	top: 750px;
+	left: 550px;
 }
+
 .screen_2 .cloth .cloth_2{
 
 	position: absolute;
 	top: 60px;
 	left: 450px;
+}
+.screen_2 .cloth .cloth_2_price{
+	opacity: 0;
+	position: absolute;
+	height: 10%; width: auto;
+	z-index: 9999;
+	top: 650px;
+	left: 850px;
 }
 .screen_2 .cloth .veshalka{
 	width: auto; height: 25%;
@@ -208,16 +221,44 @@ body{
 	bottom: -50px;
 	left: 800px;
 }
+.screen_2 .cloth .tufli:hover ~ .tufli_price{
+	opacity: 1;
+	transition-duration: .50s;
+}
+.screen_2 .cloth .tufli_price{
+	opacity: 0;
+	position: absolute;
+	height: 10%; width: auto;
+	z-index: 9999;
+	top: 750px;
+	left: 800px;
+}
+
 .screen_2 .cloth .cloth_3{
 	position: absolute;
 	top: 30px;
 	left: 1000px;
 }
+.screen_2 .cloth .cloth_3_price{
+	opacity: 0;
+	position: absolute;
+	height: 10%; width: auto;
+	z-index: 9999;
+	top: 750px;
+	left: 1150px;
+}
 .screen_2 .cloth .cloth_4{
 	position: absolute;
 	top: 60px;
 	left: 1300px;
-	z-index: -1;
+}
+.screen_2 .cloth .cloth_4_price{
+	opacity: 0;
+	position: absolute;
+	height: 10%; width: auto;
+	z-index: 9999;
+	top: 750px;
+	left: 1560px;
 }
 .screen_2 .cloth .yashik_wrapper{
 	height: 700px; width: 700px;
@@ -238,6 +279,8 @@ body{
 	position: absolute;
 	bottom: 100px;
 	left: calc(50% - 220px);
+	animation: open 4s ease  infinite;
+	animation-play-state: paused;
 }
 .screen_2 .cloth .truxali{
 	height: 20%; width: auto;
@@ -262,8 +305,21 @@ body{
  	z-index: -1;
  }
 .screen_2 .cloth .yashik_wrapper:hover .yashik1{
-	transition-duration: .50s;
-	bottom: 270px;
+	animation-play-state: running;
+}
+@keyframes open{
+	10%{
+		transform: translateY(0px)
+	}
+	50%{
+		transform: translateY(-190px)
+	}
+	76%{
+		transform: translateY(-190px)
+	}
+	100%{
+		transform: translateY(0px)
+	}
 }
 
  .screen_2 .cloth .girlyanda{
@@ -289,6 +345,14 @@ body{
 	top: 60px;
 	left: 2350px;
 }
+.screen_2 .cloth .cloth_5_price{
+	opacity: 0;
+	position: absolute;
+	height: 10%; width: auto;
+	z-index: 9999;
+	top: 650px;
+	left: 2460px;
+}
 .screen_2 .cloth .sumka_wrapper{
 	width: 380px; height: auto;
 	position: relative;
@@ -300,6 +364,10 @@ body{
 .screen_2 .cloth .sumka_wrapper img:hover ~ div.yazik{
 	top: -50px;
 }
+.screen_2 .cloth .sumka_wrapper img:hover ~ img.sumka_price{
+	opacity: 1;
+	transition-duration: .50s;
+}
 .screen_2 .cloth .sumka{
 	width: 100%; height: auto;
 	position: absolute;
@@ -308,7 +376,14 @@ body{
 	z-index: 2;
 
 }
-
+.screen_2 .cloth .sumka_price{
+	width: 35%; height: auto;
+	opacity: 0;
+	position: absolute;
+	z-index: 9999;
+	top: 200px;
+	left: 0px;
+}
 .screen_2 .cloth .yazik{
 	transition-duration: .50s;
 	width: 14px; height: 200px;
@@ -328,14 +403,38 @@ body{
 	top: 60px;
 	left: 2600px;
 }
+.screen_2 .cloth .cloth_6_price{
+	opacity: 0;
+	position: absolute;
+	height: 10%; width: auto;
+	z-index: 9999;
+	top: 550px;
+	left: 2640px;
+}
  .screen_2 .cloth .cloth_7{
 	position: absolute;
 	top: 60px;
 	left: 2900px;
 }
+.screen_2 .cloth .cloth_7_price{
+	opacity: 0;
+	position: absolute;
+	height: 10%; width: auto;
+	z-index: 9999;
+	top: 550px;
+	left: 2940px;
+}
  .screen_2 .cloth .cloth_8{
 	position: absolute;
 	top: 60px;
+	left: 3150px;
+}
+.screen_2 .cloth .cloth_8_price{
+	opacity: 0;
+	position: absolute;
+	height: 10%; width: auto;
+	z-index: 9999;
+	top: 450px;
 	left: 3150px;
 }
  .screen_2 .cloth .cloth_9{
@@ -343,27 +442,75 @@ body{
 	top: 60px;
 	left: 3600px;
 }
+.screen_2 .cloth .cloth_9_price{
+	opacity: 0;
+	position: absolute;
+	height: 10%; width: auto;
+	z-index: 9999;
+	top: 820px;
+	left: 3670px;
+}
  .screen_2 .cloth .cloth_10{
  	height: 80%; width: auto;
 	position: absolute;
 	top: 45px;
 	left: 3900px;
 }
+.screen_2 .cloth .cloth_10_price{
+	opacity: 0;
+	position: absolute;
+	height: 10%; width: auto;
+	z-index: 9999;
+	top: 720px;
+	left: 4000px;
+}
  .screen_2 .cloth .cloth_11{
 	position: absolute;
 	top: 55px;
 	left: 3350px;
+}
+.screen_2 .cloth .cloth_11_price{
+	opacity: 0;
+	position: absolute;
+	height: 10%; width: auto;
+	z-index: 9999;
+	top: 670px;
+	left: 3450px;
 }
  .screen_2 .cloth .cloth_12{
 	position: absolute;
 	top: 55px;
 	left: 4300px;
 }
+.screen_2 .cloth .cloth_12_price{
+	opacity: 0;
+	position: absolute;
+	height: 10%; width: auto;
+	z-index: 9999;
+	top: 770px;
+	left: 4650px;
+}
  .screen_2 .cloth .cloth_13{
 	position: absolute;
 	top: 30px;
 	left: 4400px;
 }
+.screen_2 .cloth .cloth_13_price{
+	opacity: 0;
+	position: absolute;
+	height: 10%; width: auto;
+	z-index: 9999;
+	top: 650px;
+	left: 4750px;
+}
+
+ .screen_2 .cloth .jaba_hook{
+ 	z-index: 3;
+ 	height: 30%; width: auto;
+ 	position: absolute;
+	top: 100px;
+	left: 4250px;
+ }
 /*SCREEN 3*/
 .screen_3{
 	display: inline-flex;
@@ -394,39 +541,92 @@ body{
 .cloth_1:hover{
 	z-index: 999;
 }
+.cloth_1:hover + .cloth_1_price{
+	transition-duration: .50s;
+	opacity: 1;
+}
 .cloth_2:hover{
 	z-index: 999;
+}
+.cloth_2:hover + .cloth_2_price{
+	transition-duration: .50s;
+	opacity: 1;
 }
 .cloth_3:hover{
 	z-index: 999;
 }
+.cloth_3:hover + .cloth_3_price{
+	transition-duration: .50s;
+	opacity: 1;
+}
 .cloth_4:hover{
 	z-index: 9999 !important;
+}
+.cloth_4:hover + .cloth_4_price{
+	transition-duration: .50s;
+	opacity: 1;
 }
 .cloth_5:hover{
 	z-index: 999;
 }
+.cloth_5:hover + .cloth_5_price{
+	transition-duration: .50s;
+	opacity: 1;
+}
 .cloth_6:hover{
 	z-index: 999;
+}
+.cloth_6:hover + .cloth_6_price{
+	transition-duration: .50s;
+	opacity: 1;
 }
 .cloth_7:hover{
 	z-index: 999;
 }
+.cloth_7:hover + .cloth_7_price{
+	transition-duration: .50s;
+	opacity: 1;
+}
 .cloth_8:hover{
 	z-index: 999;
+}
+.cloth_8:hover + .cloth_8_price{
+	transition-duration: .50s;
+	opacity: 1;
 }
 .cloth_9:hover{
 	z-index: 999;
 }
+.cloth_9:hover + .cloth_9_price{
+	transition-duration: .50s;
+	opacity: 1;
+}
 .cloth_10:hover{
 	z-index: 999;
+}
+.cloth_10:hover + .cloth_10_price{
+	transition-duration: .50s;
+	opacity: 1;
 }
 .cloth_11:hover{
 	z-index: 999;
 }
+.cloth_11:hover + .cloth_11_price{
+	transition-duration: .50s;
+	opacity: 1;
+}
 .cloth_12:hover{
 	z-index: 999;
+}
+.cloth_12:hover + .cloth_12_price{
+	transition-duration: .50s;
+	opacity: 1;
 }
 .cloth_13:hover{
 	z-index: 999;
 }
+.cloth_13:hover + .cloth_13_price{
+	transition-duration: .50s;
+	opacity: 1;
+}
+
