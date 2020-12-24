@@ -11,7 +11,13 @@
 	bottom: 145px;
 }
 .screen_2 .cloth p{
-	display: none;
+ left: 900px
+}
+.screen_2 .cloth p span{
+	left: 200px
+}
+.screen_2 .cloth .jaba1{
+	top: 160px;
 }
 .screen_2 .cloth .cloth_1{
 	left: 200px;
@@ -108,10 +114,10 @@
 	display: none;
 }
 .jabki_bg_2{
-	top: -20%;
-	left: 50%;
-	width: 70%;
-	height: 70%;
+	top: -45%;
+	left: 17%;
+	width: 100%;
+	height: 100%;
 }
 .jabki_bg_4{
 	display: none;
