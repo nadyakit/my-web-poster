@@ -161,6 +161,34 @@
 .screen_3 .about h1{
 	font-size: 54px;
 	}
+}
 
-
+@media (max-width: 1366px) and (max-height: 768px){
+	.screen_2 .palka_X{
+		width: 96%;
+		left: 3%;
+	}
+	.screen_2 .cloth h2{
+		top: 50px;
+	}
+	.screen_3 .about h1{
+		line-height: 70px;
+	}
+	.screen_3 .about{
+		margin-top: 150px;
+		margin-left: 170px;
+	}
+	.screen_3 img{
+		margin-top: 8%;
+		margin-right: 7%;
+	}
+	.screen_3 .about h2{
+		margin-top: 220px;
+	}
+	.screen_2 .cloth .yashik_wrapper{
+		bottom: -200px;
+	}
+	.screen_2 .cloth .sumka_wrapper{
+		bottom: 245px;
+	}
 }
