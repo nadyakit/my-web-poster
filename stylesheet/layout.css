@@ -35,10 +35,10 @@ body{
 	width: 600px;
 	/* margin: auto auto; */
 	z-index: 9999;
-  	position: absolute;
-  	top: 50%;
-  	left: 50%;
-  	transform: translate(-50%,-50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 
 }
 .screen_1 h2{
@@ -268,7 +268,7 @@ body{
 	z-index: 9999;
 	top: 750px;
 	left: 1560px;
-}	
+}
 .screen_2 .cloth .yashik_wrapper{
 	height: 700px; width: 700px;
 	bottom: -10%;
@@ -280,13 +280,15 @@ body{
 	height: 100%; width: 100%;
 	display: block;
 	position: absolute;
-	bottom: -20px;
+  margin-bottom: 210px;
+  bottom: 0px;
 }
 .screen_2 .cloth .yashik1{
 	height: 26%; width: auto;
 	display: block;
 	position: absolute;
-	bottom: 85px;
+  top: 30%;
+	/* bottom: 85px; */
 	left: calc(50% - 220px);
 	animation: open 4s ease  infinite;
 	animation-play-state: paused;
@@ -343,11 +345,11 @@ body{
  	font-family: 'Curbe';
  	-webkit-text-stroke-width: 2px;
 	-webkit-text-stroke-color: black;
-	top: 10%;
+	top: -25%;
  	position: absolute;
  	width: 700px;
  	height: auto;
- 	left: 180px;
+ 	left: 10%;
  }
  .screen_2 .cloth .cloth_5{
 	position: absolute;
