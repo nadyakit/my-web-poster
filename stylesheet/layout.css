@@ -139,7 +139,7 @@ body{
 	bottom: -50px;
 }
 .screen_2 .palka_X{
-	width: 4700px;
+	height: 5%; width: 98%;
 	position: absolute;
 	top: 50px;
 	left: 30px;
@@ -214,18 +214,24 @@ body{
 	left: 1300px;
 	z-index: -1;
 }
-
+.screen_2 .cloth .yashik_wrapper{
+	width: auto; height: 65%;
+	bottom: -340px;
+	left: 1600px;
+	position: relative;
+	display: inline-block;
+}
 .screen_2 .cloth .yashik{
-	width: auto; height: 500px;
+	display: block;
 	position: absolute;
- 	bottom: -30px;
-	left: 1700px;
+	bottom: 0;
 }
 .screen_2 .cloth .yashik1{
-	width: auto; height: 180px;
+	width: auto; height: 32%;
+	bottom: 10px;
+	left: 180px;
+	margin: auto 100px;
 	position: absolute;
- 	bottom: -20px;
-	left: 1953px;
 }
  .screen_2 .cloth .girlyanda{
  	position: absolute;
@@ -243,20 +249,46 @@ body{
  	position: absolute;
  	width: 700px;
  	height: auto;
- 	top: 350px;
-	left: 1900px;
+ 	left: 270px;
  }
  .screen_2 .cloth .cloth_5{
 	position: absolute;
 	top: 60px;
 	left: 2350px;
 }
-.screen_2 .cloth .sumka{
-	height: 40%; width: auto;
-	position: absolute;
-	bottom: -65px;
-	left: 2460px;
+.screen_2 .cloth .sumka_wrapper{
+	width: 380px; height: auto;
+	position: relative;
+	bottom: 0px;
+	left: 2500px;
+	display: inline-block;
+
 }
+.screen_2 .cloth .sumka_wrapper img:hover ~ div.yazik{
+	top: -50px;
+}
+.screen_2 .cloth .sumka{
+	width: 100%; height: auto;
+	position: absolute;
+	top: 0px;
+	display: block;
+	z-index: 2;
+
+}
+
+.screen_2 .cloth .yazik{
+	transition-duration: .50s;
+	width: 14px; height: 200px;
+	background-color: #FF5656;
+	border: none;
+	display: block;
+	position: absolute;
+	top: 120px;
+	left: calc(50% - 7px);
+	z-index: 1;
+
+}
+
  .screen_2 .cloth .cloth_6{
  	height: 70%; width: auto;
 	position: absolute;
