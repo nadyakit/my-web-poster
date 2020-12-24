@@ -64,13 +64,13 @@
 .screen_2 .cloth .cloth_8_price{
 	left: 3300px;
 }
-.screen_2 .cloth .yashik_wrapper{
+/* .screen_2 .cloth .yashik_wrapper{
 	bottom: -370px;
 	height: 800px;
 	width: 750px;
-}
+} */
 .screen_2 .cloth .yashik1{
-	left: calc(50% - 255px);
+	left: calc(55% - 255px);
 	bottom: 110px;
 }
 .screen_2 .cloth .yashik_wrapper p{
@@ -145,12 +145,12 @@
 	.screen_2 .palka_Y2{
 		right: 60px;
 	}
-.screen_2 .cloth .yashik_wrapper{
+/* .screen_2 .cloth .yashik_wrapper{
 	bottom: -310px;
-}
-.screen_2 .cloth .sumka_wrapper{
+} */
+/* .screen_2 .cloth .sumka_wrapper{
 	bottom: 110px;
-}
+} */
 .screen_2 .cloth .cloth_3_price{
 	top: 650px;
 }
