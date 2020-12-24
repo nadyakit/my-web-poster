@@ -280,13 +280,13 @@ body{
 	height: 100%; width: 100%;
 	display: block;
 	position: absolute;
-	bottom: 0;
+	bottom: -20px;
 }
 .screen_2 .cloth .yashik1{
 	height: 26%; width: auto;
 	display: block;
 	position: absolute;
-	bottom: 100px;
+	bottom: 85px;
 	left: calc(50% - 220px);
 	animation: open 4s ease  infinite;
 	animation-play-state: paused;
