@@ -276,3 +276,56 @@
 		margin-top: 150px;
 	}
 }
+@media (max-width: 1024px) and (max-height: 768px){
+	.screen_2 .cloth .cloth_9_price{
+		top: 700px;
+	}
+	.jabki_bg_2{
+		display: none;
+	}
+	.jabki_bg_5{
+		width: 80%; height: 80%;
+		transform: rotate(-90deg);
+		bottom: 10%;
+		right: -20%;
+		animation: auto_blur 5s ease-in infinite !important;
+	}
+	.jabki_bg_1{
+		animation: auto_blur 3s ease-in infinite !important;
+	}
+	@keyframes auto_blur{
+		0%{
+			filter: blur(0px);
+		}
+		25%{
+			filter: blur(20px);
+		}
+		80%{
+			filter: blur(20px);
+		}
+		90%{
+			filter: blur(0px);
+		}
+		100%{
+			filter: blur(0px);
+		}
+	}
+	.screen_3{
+		width: 1024px;
+	}
+	.screen_3 .about h1{
+		font-size: 40px;
+		line-height: 40px;
+	}
+	.screen_3 .about h2{
+		font-size: 18px;
+	}
+	.screen_3 .about{
+		margin-top: 200px;
+		margin-left: 30px;
+	}
+	.screen_3 img{
+		width: 70%; height: 70%;
+		margin-right: -90px;
+	}
+}
