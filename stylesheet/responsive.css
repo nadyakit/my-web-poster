@@ -305,6 +305,29 @@
 	.jabki_bg_1{
 		animation: auto_blur 3s ease-in infinite !important;
 	}
+	.screen_2 .cloth .yashik1{
+		animation-play-state: running;
+	}
+	.screen_2 .cloth .sumka_wrapper .yazik{
+		animation: yazik_open 3s ease-in infinite !important;
+	}
+	.screen_2 .cloth .sumka_wrapper img:hover ~ div.yazik{
+		top: 120px;
+	}
+	@keyframes yazik_open{
+		0%{
+			transform: translateY(0px);
+		}
+		50%{
+			transform: translateY(-120px);
+		}
+		80%{
+			transform: translateY(-120px);
+		}
+		100%{
+			transform: translateY(0px);
+		}
+	}
 	@keyframes auto_blur{
 		0%{
 			filter: blur(0px);
@@ -326,7 +349,7 @@
 		width: 1024px;
 	}
 	.screen_3 .about h1{
-		font-size: 40px;
+		font-size: 32px;
 		line-height: 40px;
 	}
 	.screen_3 .about h2{
@@ -334,7 +357,7 @@
 	}
 	.screen_3 .about{
 		margin-top: 200px;
-		margin-left: 30px;
+		margin-left: 35px;
 	}
 	.screen_3 img{
 		width: 70%; height: 70%;
