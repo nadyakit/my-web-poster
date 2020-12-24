@@ -136,12 +136,15 @@
 .screen_2 .cloth .cloth_1{
 	left: 200px;
 }
-.screen_2 .palka_Y1{
-	/* left: 140px; */
-}
-.screen_2 .palka_X{
-	width: 100%;
-}
+	.screen_2 .palka_X{
+		left: 5px;
+	}
+	.screen_2 .palka_Y1{
+		left: 5px;
+	}
+	.screen_2 .palka_Y2{
+		right: 60px;
+	}
 .screen_2 .cloth .yashik_wrapper{
 	bottom: -310px;
 }
@@ -179,9 +182,7 @@
 	.screen_2 .palka_Y1{
 		left: 5px;
 	}
-	.screen_2 .palka_Y2{
-		right: 5px;
-	}
+
 	.screen_2 .cloth h2{
 		top: 50px;
 	}
@@ -249,4 +250,10 @@
 	.cloth_wrapper_10{
 	}
 
+	.screen_3{
+		width: 1280px;
+	}
+	.screen_3 .about{
+		margin-top: 150px;
+	}
 }
