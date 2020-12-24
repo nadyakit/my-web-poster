@@ -1,6 +1,6 @@
 @media (max-width: 1680px) and (min-height: 1050px)
 {
-	.screen_1{
+.screen_1{
 	width: 1680px;
 	height: 100vh;
 }
@@ -155,17 +155,12 @@
 	width: 1440px;
 }
 .screen_3 .about{
-		margin-top: 200px;
-		margin-left: 100px;
+	margin-top: 200px;
+	margin-left: 100px;
 	}
-	.screen_3 .about h1{
-		font-size: 54px;
+.screen_3 .about h1{
+	font-size: 54px;
 	}
 
 
 }
-
-
-
-
-
