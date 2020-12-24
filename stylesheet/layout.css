@@ -277,30 +277,31 @@ body{
 	display: inline-block;
 }
 .screen_2 .cloth .yashik{
-	height: 100%; width: 100%;
-	display: block;
+	height: 100%;
+  width: 100%;
+	/* display: block; */
 	position: absolute;
-  margin-bottom: 210px;
-  bottom: 0px;
+  /* margin-bottom: 210px;
+  bottom: 0px; */
 }
 .screen_2 .cloth .yashik1{
 	height: 26%; width: auto;
-	display: block;
+	/* display: block; */
 	position: absolute;
-  top: 30%;
+  top: 60%;
 	/* bottom: 85px; */
 	left: calc(50% - 220px);
 	animation: open 4s ease  infinite;
 	animation-play-state: paused;
 }
-.screen_2 .cloth .truxali{
+/* .screen_2 .cloth .truxali{
 	height: 20%; width: auto;
 	display: block;
 	position: absolute;
 	bottom: 100px;
 	left: 130px;
 	z-index: -1;
-}
+} */
  .screen_2 .cloth .yashik_wrapper p{
  	width: 100px; height: auto;
  	display: block;
@@ -345,11 +346,11 @@ body{
  	font-family: 'Curbe';
  	-webkit-text-stroke-width: 2px;
 	-webkit-text-stroke-color: black;
-	top: -25%;
+	/* top: -25%; */
  	position: absolute;
  	width: 700px;
  	height: auto;
- 	left: 10%;
+ 	left: 20%;
  }
  .screen_2 .cloth .cloth_5{
 	position: absolute;
@@ -359,13 +360,15 @@ body{
 .screen_2 .cloth .cloth_5_price{
 	opacity: 0;
 	position: absolute;
-	height: 10%; width: auto;
+	height: 10%;
+  width: auto;
 	z-index: 9999;
 	top: 650px;
 	left: 2460px;
 }
 .screen_2 .cloth .sumka_wrapper{
-	width: 380px; height: auto;
+	width: 380px;
+  height: auto;
 	position: absolute;
 	bottom: 35%;
 	left: 2500px;
