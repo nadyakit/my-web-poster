@@ -6,6 +6,9 @@
 .screen_1 h2{
 	left: 715px;
 }
+.logo{
+	bottom: 145px;
+}
 .screen_2 .cloth p{
 	display: none;
 }
