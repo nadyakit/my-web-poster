@@ -64,6 +64,9 @@
 .screen_2 .cloth .cloth_8_price{
 	left: 3300px;
 }
+.screen_2 .cloth .sumka_wrapper{
+	bottom: 31%;
+}
 /* .screen_2 .cloth .yashik_wrapper{
 	bottom: -370px;
 	height: 800px;
@@ -171,7 +174,7 @@
 		bottom: -13%;
 	}
 	.screen_2 .cloth .sumka_wrapper{
-		bottom: 40%;
+		bottom: 43%;
 	}
 	.screen_1{
 		width: 1366px;
@@ -267,7 +270,7 @@
 	.screen_2 .cloth .cloth_13_price{
 		top: 600px;
 	}
-	
+
 
 	.screen_3{
 		width: 1280px;
