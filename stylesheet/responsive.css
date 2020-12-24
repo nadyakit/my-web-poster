@@ -256,4 +256,13 @@
 	.screen_3 .about{
 		margin-top: 150px;
 	}
+	.screen_2 .cloth .sumka_wrapper{
+		bottom: 42%;
+	}
+	.screen_2 .cloth .yashik_wrapper{
+		bottom: -13%;
+	}
+	.screen_2 .cloth h2{
+		top: 70px;
+	}
 }
