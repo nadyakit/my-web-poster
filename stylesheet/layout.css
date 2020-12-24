@@ -35,10 +35,10 @@ body{
 	width: 600px;
 	/* margin: auto auto; */
 	z-index: 9999;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%,-50%);
 
 }
 .screen_1 h2{
@@ -268,7 +268,7 @@ body{
 	z-index: 9999;
 	top: 750px;
 	left: 1560px;
-}
+}	
 .screen_2 .cloth .yashik_wrapper{
 	height: 700px; width: 700px;
 	bottom: -10%;
