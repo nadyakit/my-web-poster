@@ -132,6 +132,7 @@ body{
 	position: absolute;
 	left: 30px;
 	bottom: -50px;
+  /* max-width: 100% */
 }
 .screen_2 .palka_Y2{
 	height: 100vh;
@@ -519,7 +520,7 @@ body{
 }
 .screen_3 .about{
 	margin-top: 200px;
-	margin-left: 200px; 
+	margin-left: 200px;
 }
 .screen_3 .about h1{
 	font-weight: bold;
@@ -629,4 +630,3 @@ body{
 	transition-duration: .50s;
 	opacity: 1;
 }
-
