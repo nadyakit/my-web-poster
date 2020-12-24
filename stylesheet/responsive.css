@@ -241,14 +241,33 @@
 
 
 @media (max-width: 1280px) and (max-height: 800px){
-	.cloth_wrapper_13{
-		display: none;
+	.screen_2 .cloth .cloth_1_price{
+		top: 700px;
+		left: 230px;
 	}
-	.cloth_wrapper_12{
-		display: none;
+	.screen_2 .cloth .cloth_2_price{
+		top: 670px;
+		left: 800px;
 	}
-	.cloth_wrapper_10{
+	.screen_2 .cloth .cloth_4_price{
+		top: 700px;
 	}
+	.screen_2 .cloth .cloth_9_price{
+		top: 730px;
+	}
+	.screen_2 .cloth .cloth_10{
+		top: 60px;
+	}
+	.screen_2 .cloth .cloth_10_price{
+		top: 650px;
+	}
+	.screen_2 .cloth .cloth_12_price{
+		top: 630px;
+	}
+	.screen_2 .cloth .cloth_13_price{
+		top: 600px;
+	}
+	
 
 	.screen_3{
 		width: 1280px;
