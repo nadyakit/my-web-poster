@@ -158,6 +158,11 @@ body{
 	top: 60px;
 	left: 150px;
 }
+.screen_2 .cloth .border_1{
+	position: absolute;
+	top: 60px;
+	left: 150px;
+}
 .screen_2 .cloth .cloth_2{
 
 	position: absolute;
@@ -215,24 +220,52 @@ body{
 	z-index: -1;
 }
 .screen_2 .cloth .yashik_wrapper{
-	width: auto; height: 65%;
-	bottom: -340px;
-	left: 1600px;
+	height: 700px; width: 700px;
+	bottom: -350px;
+	left: 1750px;
 	position: relative;
 	display: inline-block;
 }
 .screen_2 .cloth .yashik{
+	height: 100%; width: 100%;
 	display: block;
 	position: absolute;
 	bottom: 0;
 }
 .screen_2 .cloth .yashik1{
-	width: auto; height: 32%;
-	bottom: 10px;
-	left: 180px;
-	margin: auto 100px;
+	height: 26%; width: auto;
+	display: block;
 	position: absolute;
+	bottom: 100px;
+	left: calc(50% - 220px);
 }
+.screen_2 .cloth .truxali{
+	height: 20%; width: auto;
+	display: block;
+	position: absolute;
+	bottom: 100px;
+	left: 130px;
+	z-index: -1;
+}
+ .screen_2 .cloth .yashik_wrapper p{
+ 	width: 100px; height: auto;
+ 	display: block;
+ 	font-size: 32px;
+ 	font-family: 'Curbe';
+ 	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: black;
+
+ 	position: absolute;
+ 	left: 400px;
+ 	top: 500px;
+
+ 	z-index: -1;
+ }
+.screen_2 .cloth .yashik_wrapper:hover .yashik1{
+	transition-duration: .50s;
+	bottom: 270px;
+}
+
  .screen_2 .cloth .girlyanda{
  	position: absolute;
  	width: 700px;
@@ -249,7 +282,7 @@ body{
  	position: absolute;
  	width: 700px;
  	height: auto;
- 	left: 270px;
+ 	left: 180px;
  }
  .screen_2 .cloth .cloth_5{
 	position: absolute;
@@ -259,8 +292,8 @@ body{
 .screen_2 .cloth .sumka_wrapper{
 	width: 380px; height: auto;
 	position: relative;
-	bottom: 0px;
-	left: 2500px;
+	bottom: 80px;
+	left: 1800px;
 	display: inline-block;
 
 }
@@ -356,4 +389,44 @@ body{
 .screen_3 img{
 	height: 75%; width: auto;
 	margin: 170px auto;
+}
+/*HOVER CLOTH*/
+.cloth_1:hover{
+	z-index: 999;
+}
+.cloth_2:hover{
+	z-index: 999;
+}
+.cloth_3:hover{
+	z-index: 999;
+}
+.cloth_4:hover{
+	z-index: 9999 !important;
+}
+.cloth_5:hover{
+	z-index: 999;
+}
+.cloth_6:hover{
+	z-index: 999;
+}
+.cloth_7:hover{
+	z-index: 999;
+}
+.cloth_8:hover{
+	z-index: 999;
+}
+.cloth_9:hover{
+	z-index: 999;
+}
+.cloth_10:hover{
+	z-index: 999;
+}
+.cloth_11:hover{
+	z-index: 999;
+}
+.cloth_12:hover{
+	z-index: 999;
+}
+.cloth_13:hover{
+	z-index: 999;
 }
