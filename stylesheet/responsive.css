@@ -340,4 +340,13 @@
 		width: 70%; height: 70%;
 		margin-right: -90px;
 	}
+	.screen_2 .cloth p {
+		left: 740px;
+	}
+	.screen_2 .cloth .yashik_wrapper{
+		bottom: -18%;
+	}
+	.screen_2 .cloth .sumka_wrapper{
+		bottom: 40%;
+	}
 }
