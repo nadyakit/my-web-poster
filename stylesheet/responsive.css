@@ -5,10 +5,10 @@
 	height: 100vh;
 }
 .screen_1 h2{
-	left: 715px;
+	/* left: 715px; */
 }
 .logo{
-	bottom: 145px;
+	/* bottom: 145px; */
 }
 .screen_2 .cloth p{
  left: 900px
@@ -105,10 +105,10 @@
 	width: 1440px;
 }
 .screen_1 h2{
-	left: 580px;
+	/* left: 580px; */
 }
 .screen_1 h3{
-	bottom: 148px;
+	/* bottom: 148px; */
 }
 .jabki_bg_3{
 	display: none;
@@ -128,10 +128,10 @@
 	right: -7%;
 }
 .screen_1 h3{
-	right: 370px;
+	/* right: 370px; */
 }
 .logo{
-	bottom: 140px;
+	/* bottom: 140px; */
 }
 .screen_2 .cloth .cloth_1{
 	left: 200px;
