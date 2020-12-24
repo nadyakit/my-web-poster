@@ -271,9 +271,9 @@ body{
 }
 .screen_2 .cloth .yashik_wrapper{
 	height: 700px; width: 700px;
-	bottom: -350px;
+	bottom: -10%;
 	left: 1750px;
-	position: relative;
+	position: absolute;
 	display: inline-block;
 }
 .screen_2 .cloth .yashik{
@@ -343,7 +343,7 @@ body{
  	font-family: 'Curbe';
  	-webkit-text-stroke-width: 2px;
 	-webkit-text-stroke-color: black;
-
+	top: 10%;
  	position: absolute;
  	width: 700px;
  	height: auto;
@@ -364,9 +364,9 @@ body{
 }
 .screen_2 .cloth .sumka_wrapper{
 	width: 380px; height: auto;
-	position: relative;
-	bottom: 80px;
-	left: 1800px;
+	position: absolute;
+	bottom: 35%;
+	left: 2500px;
 	display: inline-block;
 
 }
