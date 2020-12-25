@@ -314,37 +314,6 @@
 	.screen_2 .cloth .sumka_wrapper img:hover ~ div.yazik{
 		top: 120px;
 	}
-	@keyframes yazik_open{
-		0%{
-			transform: translateY(0px);
-		}
-		50%{
-			transform: translateY(-120px);
-		}
-		80%{
-			transform: translateY(-120px);
-		}
-		100%{
-			transform: translateY(0px);
-		}
-	}
-	@keyframes auto_blur{
-		0%{
-			filter: blur(0px);
-		}
-		25%{
-			filter: blur(20px);
-		}
-		80%{
-			filter: blur(20px);
-		}
-		90%{
-			filter: blur(0px);
-		}
-		100%{
-			filter: blur(0px);
-		}
-	}
 	.screen_3{
 		width: 1024px;
 	}
@@ -366,6 +335,9 @@
 	}
 }
 @media (max-width: 768px) and (max-height: 1024px){
+	.screen_1{
+		width: 768px;
+	}
 	.jabki_bg_1{
 		display: none;
 	}
@@ -373,17 +345,57 @@
 		display: none;
 	}
 	.jabki_bg_5{
+		animation: auto_blur 5s ease-in infinite !important;
 		width: 130%; height: 130%;
 		bottom: -45%;
 		right: -20%;
 
 	}
 	.jabki_bg_2{
+		animation: auto_blur 3s ease-in infinite !important;
 		top: -50%;
 		left: -10%;
 		width: 120%; height: 120%;
 	}
 	.jabki_bg_4{
 		display: none;
+	}
+	.screen_2 .cloth .cloth_1{
+		left: 180px;
+	}
+	.screen_2 .cloth .cloth_13_price{
+		display: none;
+	}
+	.screen_2 .cloth .cloth_13{
+		display: none;
+	}
+	.screen_2 .cloth .yashik1{
+		animation-play-state: running;
+	}
+	.screen_2 .cloth .sumka_wrapper .yazik{
+		animation: yazik_open 3s ease-in infinite !important;
+	}
+	.screen_2 .cloth .sumka_wrapper img:hover ~ div.yazik{
+		top: 120px;
+	}
+
+	.screen_1 h2{
+		left: 65%;
+		font-size: 30px;
+		transform: translate(-30%,5%);
+		bottom: 10%;
+	}
+	.logo{
+		width: 17%;
+		bottom: 10%;
+		transform: translate(-19%, 18%);
+	}
+	.screen_1 h3{
+		font-size: 30px;
+		bottom: 0px;
+		top: 25%;
+		right: 0px;
+		left: -20%;
+
 	}
 }
