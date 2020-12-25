@@ -434,6 +434,23 @@
 	.screen_1{
 		width: 320px;
 	}
+	.screen_2 .cloth .yashik {
+		height: 64%;
+    width: 64%;
+    background-size: cover;
+    bottom: -5%;
+	}
+	.screen_2 .cloth .yashik1 {
+		height: 17%;
+		left: calc(43% - 220px);
+		position: relative;
+    margin-bottom: -43%;
+	}
+	/* .screen_2 .cloth .sumka_wrapper{
+		width: 70%; */
+		/* background-size: cover; */
+    /* bottom: -5%; */
+	}
 	.screen_1 h1{
 		font-size: 30px;
 		-webkit-text-stroke-width: 1px;
