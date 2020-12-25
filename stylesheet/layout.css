@@ -21,6 +21,37 @@ body{
 
 }
 /*Screen 1*/
+	@keyframes yazik_open{
+		0%{
+			transform: translateY(0px);
+		}
+		50%{
+			transform: translateY(-120px);
+		}
+		80%{
+			transform: translateY(-120px);
+		}
+		100%{
+			transform: translateY(0px);
+		}
+	}
+	@keyframes auto_blur{
+		0%{
+			filter: blur(0px);
+		}
+		25%{
+			filter: blur(20px);
+		}
+		80%{
+			filter: blur(20px);
+		}
+		90%{
+			filter: blur(0px);
+		}
+		100%{
+			filter: blur(0px);
+		}
+	}
 .screen_1{
 	display: inline-flex;
 	width: 1920px;
