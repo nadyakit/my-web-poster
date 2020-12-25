@@ -398,4 +398,35 @@
 		left: -20%;
 
 	}
+	.screen_3{
+		width: 768px;
+	}
+	.screen_3 .jaba_end{
+		height: 50%;
+		display: none;
+	}
+	.screen_3 span{
+	display: block !important;
+	text-align: center;
+	}
+	.screen_3 span img{
+	height: 75%; width: 75%;
+	margin: 0;
+	margin-top: 50px;
+	margin-right: 10%;
+	}
+
+	.screen_3 .about{
+		margin: 0px;
+		margin-left: 50px;
+		margin-top: 50px;
+	}
+	.screen_3 .about h1{
+		line-height: 60px;
+		font-size: 55px;
+	}
+	.screen_3 .about h2{
+		margin: 0;
+		margin-top: 50px;
+	}
 }
