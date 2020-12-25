@@ -360,7 +360,8 @@
 		margin-left: 35px;
 	}
 	.screen_3 img{
-		width: 70%; height: 70%;
-		margin-right: -90px;
+		right: -20px;
+		top: 10px;
+    position: relative;
 	}
 }
