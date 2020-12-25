@@ -430,3 +430,56 @@
 		margin-top: 50px;
 	}
 }
+@media (max-width: 768px) and (max-height: 1024px){
+	.screen_1{
+		width: 320px;
+	}
+	.jabki_bg_2{
+		display: none;
+	}
+	.jabki_bg_5{
+		display: none;
+	}
+	.jabki_bg_2{
+		display: block;
+		transform: rotate(-90deg);
+		width: 200%; height: 200%;
+		left: -50%;
+	}
+	.screen_3{
+		width: 640px;
+	}
+	.screen_3 .jaba_end{
+		height: 50%; width: 50%;
+		display: block;
+		margin: 0px;
+		margin-top: 20%;
+		margin-right: 20px;
+	}
+	.screen_3 span{
+	display: none !important;
+	text-align: center;
+	}
+	.screen_3 span img{
+	height: 75%; width: 75%;
+	margin: 0;
+	margin-top: 50px;
+	margin-right: 10%;
+	}
+
+	.screen_3 .about{
+		margin: 0px;
+		margin-left: 50px;
+		margin-top: 50px;
+	}
+	.screen_3 .about h1{
+		line-height: 40px;
+		font-weight: bold;
+		font-size: 32px;
+	}
+	.screen_3 .about h2{
+		margin: 0;
+		line-height: 25px;
+		margin-top: 150px;
+	}
+}
